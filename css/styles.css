@@ -1,3 +1,24 @@
 @charset "UTF-8";
 /* CSS Document */
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
 
+.background {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-color: #FFFFFF;
+    background-image: url(../images/1567666.png);
+}
+
+.container-fluid {
+    border: thick solid #000000;
+	background: #000000;
+	color: #FFFFFF;
+    text-align: center;
+	font-size: 100px
+}
+
+.container {
+    border: thin solid #FFFFFF;
+    text-align: center;
+    color: #00000;
+	background: #82BFF3;
+}
