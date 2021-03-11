@@ -22,3 +22,8 @@
     color: #00000;
 	background: #82BFF3;
 }
+.jumbotron {
+    background-color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+}
