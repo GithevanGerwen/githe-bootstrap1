@@ -16,12 +16,6 @@
 	font-size: 60px
 }
 
-.container {
-    border: thin solid #FFFFFF;
-    text-align: center;
-    color: #00000;
-	background: #82BFF3;
-}
 .jumbotron {
     background-color: #000000;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -38,7 +32,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media (min-width: 100px) { 
-.container-fluid2 {
+.container {
 	background-color: #5A81A7;
     border: thick solid #FFFFFF;
 	margin-top: 30px;
@@ -67,4 +61,13 @@
 .Red {
 	color: red;
 	}
+
+.col-sm {
+	border: thick dotted #000000
+}
+
+.col {
+	border: thick dotted #000000;
+	padding: 40px;
+}
 	
