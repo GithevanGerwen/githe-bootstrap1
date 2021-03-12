@@ -32,26 +32,36 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media (min-width: 100px) { 
-.container {
+.tickets {
 	background-color: #5A81A7;
     border: thick solid #FFFFFF;
 	margin-top: 30px;
 	padding: 5px;
 	text-align: center;
-}
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media (min-width: 600px) { 
-.carousel {
-	margin-top: 30px;
-	margin-bottom: 30px;
 	}
 }
-	
+
+
+.col-4 {
+	margin-bottom: 30px;
+	color: white;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	border:thick solid #5A81A7;
+	background-color: #000000;
+}
+
+#fanshop {
+	text-align: center;
+	margin-top: 30px;
+	color: white;
+	border: thick solid #5A81A7;
+	background-color: black;
+}
+
 .card {
     background-color: #000000;
     color: #FFFFFF;
+	margin-top: 30px;
 }
 .btn.btn-primary {
 	background-color: #5A81A7;
@@ -66,8 +76,8 @@
 	border: thick dotted #000000
 }
 
-.col {
-	border: thick dotted #000000;
-	padding: 40px;
+.products {
+	text-align: center;
+	
 }
 	
